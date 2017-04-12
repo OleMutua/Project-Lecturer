@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/monday"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="MONDAY"
+         />
+    <item
+        android:id="@+id/tuesday"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_2_black_24dp"
+        android:title="TUESDAY"
+         />
+    <item
+        android:id="@+id/wednesday"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_3_black_24dp"
+        android:title="WEDNESDAY"
+         />
+    <item
+        android:id="@+id/thursday"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_4_black_24dp"
+        android:title="THURSDAY"
+         />
+    <item
+        android:id="@+id/friday"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_5_black_24dp"
+        android:title="FRIDAY"
+         />
+</menu>
