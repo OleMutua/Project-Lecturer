@@ -185,13 +185,17 @@ public class Dashboard extends AppCompatActivity {
                 break;
 
             case R.id.Assignments:
-                AssignmentsFragment b = new AssignmentsFragment();
-                getSupportFragmentManager().beginTransaction().replace(R.id.frame,b).commit();
+//                AssignmentsFragment b = new AssignmentsFragment();
+//                getSupportFragmentManager().beginTransaction().replace(R.id.frame,b).commit();
+                Intent intent = new Intent(this,FirebaseUpload.class);
+                startActivity(intent);
                 break;
 
             case R.id.Submitted:
-                SubmittedFragment c = new SubmittedFragment();
-                getSupportFragmentManager().beginTransaction().replace(R.id.frame,c).commit();
+//                SubmittedFragment c = new SubmittedFragment();
+//                getSupportFragmentManager().beginTransaction().replace(R.id.frame,c).commit();
+                Intent intent1 = new Intent(this,ShowUploads.class);
+                startActivity(intent1);
                 break;
 
             case R.id.Attendance:
