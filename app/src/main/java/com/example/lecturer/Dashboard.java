@@ -222,9 +222,9 @@ public class Dashboard extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-        if (id == R.id.signout) {
-            return true;
-        }
+//        if (id == R.id.signout) {
+//            return true;
+//        }
         return super.onOptionsItemSelected(item);
     }
 }
