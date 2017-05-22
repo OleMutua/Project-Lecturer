@@ -36,4 +36,20 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <array name="genres">
+        <item name="EEC2505">EEC2505</item>
+        <item name="EEE2504">EEE2504</item>
+        <item name="EEE2507">EEE2507</item>
+        <item name="EEE2519">EEE2519</item>
+        <item name="HRD2115">HRD2115</item>
+    </array>
+
+    <array name="days">
+        <item name="MONDAY">MONDAY</item>
+        <item name="TUESDAY">TUESDAY</item>
+        <item name="WEDNESDAY">WEDNESDAY</item>
+        <item name="THURSDAY">THURSDAY</item>
+        <item name="FRIDAY">FRIDAY</item>
+    </array>
 </resources>
